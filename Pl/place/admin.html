@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="fa-solid fa-user-shield"></i>
+            <h2>Admin</h2>
+        </div>
+
+        <ul class="menu">
+
+            <li>
+                <a href="admin.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="manage-jobs.html">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Manage Jobs
+                </a>
+            </li>
+
+            <li>
+                <a href="manage-users.html">
+                    <i class="fa-solid fa-users"></i>
+                    Manage Users
+                </a>
+            </li>
+
+            <li>
+                <a href="manage-applications.html">
+                    <i class="fa-solid fa-file"></i>
+                    Applications
+                </a>
+            </li>
+
+            <li>
+                <a href="#" onclick="adminLogout()">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <h1>Admin Dashboard</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Users</h3>
+                <p id="adminUsers">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Jobs</h3>
+                <p id="adminJobs">0</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Applications</h3>
+                <p id="adminApplications">0</p>
+            </div>
+            <div class="card">
+    <h3>Approved Applications</h3>
+    <p id="approvedApplications">0</p>
+</div>
+
+<div class="card">
+    <h3>Rejected Applications</h3>
+    <p id="rejectedApplications">0</p>
+</div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="css/js/script.js"></script>
+
+</body>
+</html>

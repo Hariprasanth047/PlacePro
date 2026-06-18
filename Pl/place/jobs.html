@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jobs - PlacePro</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>PlacePro</h2>
+        </div>
+        
+
+        <ul class="menu">
+            <li><a href="dashboard.html">
+                <i class="fa-solid fa-house"></i> Dashboard
+            </a></li>
+
+            <li><a href="jobs.html">
+                <i class="fa-solid fa-briefcase"></i> Jobs
+            </a></li>
+            <li>
+    <a href="applied-jobs.html">
+        Applied Jobs
+    </a>
+</li>
+
+            <li><a href="login.html">
+                <i class="fa-solid fa-right-from-bracket"></i> Logout
+            </a></li>
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main-content">
+
+        <h1>Available Jobs</h1>
+
+        <br>
+
+        <input
+            type="text"
+            id="jobSearch"
+            placeholder="Search Company..."
+            onkeyup="searchJobs()"
+            class="search-box">
+
+        <br><br>
+
+        <div id="jobList"></div>
+
+    </main>
+
+</div>
+
+<script src="css/js/script.js"></script>
+
+</body>
+</html>

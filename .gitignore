@@ -1,0 +1,16 @@
+# Spring Boot
+target/
+*.class
+*.log
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Windows
+Thumbs.db
+
+# Mac
+.DS_Store

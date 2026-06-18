@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - PlacePro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-body">
+
+    <div class="auth-container">
+
+        <div class="auth-box">
+
+            <h2>Create Account</h2>
+            <p>Start your placement journey today</p>
+
+            <form onsubmit="registerUser(event)">
+
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" id="name" placeholder="Enter Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Create Password" required>
+                </div>
+
+                <div class="input-group">
+                    <label>College</label>
+                    <input type="text" id="college" placeholder="College Name" required>
+                </div>
+
+                <button type="submit" class="auth-btn">
+                    Register
+                </button>
+
+            </form>
+
+            <p class="auth-link">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="css/js/script.js"></script>
+
+</body>
+</html>

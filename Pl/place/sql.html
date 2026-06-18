@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SQL Practice</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>PlacePro</h2>
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="dashboard.html">
+                <i class="fa-solid fa-house"></i> Dashboard
+            </a></li>
+
+            <li><a href="jobs.html">
+                <i class="fa-solid fa-briefcase"></i> Jobs
+            </a></li>
+
+            <li><a href="sql.html">
+                <i class="fa-solid fa-database"></i> SQL Practice
+            </a></li>
+
+            <li><a href="dsa.html">
+                <i class="fa-solid fa-code"></i> DSA Practice
+            </a></li>
+
+            <li><a href="mock.html">
+                <i class="fa-solid fa-file-lines"></i> Mock Tests
+            </a></li>
+
+            <li><a href="resume.html">
+                <i class="fa-solid fa-file"></i> Resume Builder
+            </a></li>
+
+            <li><a href="profile.html">
+                <i class="fa-solid fa-user"></i> Profile
+            </a></li>
+
+            <li><a href="login.html">
+                <i class="fa-solid fa-right-from-bracket"></i> Logout
+            </a></li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <div class="sql-container">
+
+            <h1>SQL Practice Questions</h1>
+
+            <br>
+
+            <input
+            type="text"
+            id="search"
+            class="search-box"
+            placeholder="Search Question..."
+            onkeyup="searchQuestion()">
+
+            <div id="sqlQuestionList"></div>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="css/js/script.js"></script>
+
+</body>
+</html>
